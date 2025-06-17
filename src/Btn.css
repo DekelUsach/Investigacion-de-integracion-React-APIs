@@ -1,0 +1,23 @@
+button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: translateY(-1px);
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+    transform: translateY(1px);
+  }
+  
