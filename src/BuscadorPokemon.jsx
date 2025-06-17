@@ -24,7 +24,7 @@ export default function BuscadorPokemon() {
         setLoading(false);
       })
       .catch((error) => {
-        setError("Pokémon no encontrado 😢");
+        setError("No se ha encontrado al pokemon");
         setLoading(false);
       });
   };
